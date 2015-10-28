@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="menu_tv_vnpt">VNPT Da Nang</string>
+    <string name="menu_tv_ketcuoi">Ket cuoi</string>
+    <string name="menu_tv_dichvu">Dich Vu</string>
+    <string name="menu_tv_dangkydv">Dang ky dich vu</string>
+    <string name="menu_tv_logout">Logout</string>
+    <string name="menu_tv_msg_logout">Bạn chắc chắn muốn thoát tài khoản này?</string>
+</resources>

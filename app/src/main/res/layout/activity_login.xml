@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="#CC0060a0"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:background="@android:color/transparent"
+        android:orientation="vertical">
+
+        <RelativeLayout style="@style/LoginItem">
+
+            <TextView
+                android:id="@+id/mTvUserName"
+                style="@style/LoginTextView"
+                android:text="@string/login_tv_username" />
+
+            <EditText
+                android:id="@+id/mEdtNameUser"
+                style="@style/LoginEdittext"
+                android:layout_toEndOf="@+id/mTvUserName"
+                android:layout_toRightOf="@+id/mTvUserName"
+                android:gravity="center_vertical"
+                android:hint="@string/login_tv_username_hint"
+                android:inputType="textPersonName"
+                android:textColorHint="@color/text_hint_color" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            style="@style/LoginItem"
+            android:layout_marginTop="20dp">
+
+            <TextView
+                android:id="@+id/mTvPassword"
+                style="@style/LoginTextView"
+                android:text="@string/login_edt_password" />
+
+            <EditText
+                android:id="@+id/mEdtPassword"
+                style="@style/LoginEdittext"
+                android:layout_toEndOf="@+id/mTvPassword"
+                android:layout_toRightOf="@+id/mTvPassword"
+                android:gravity="center_vertical"
+                android:hint="@string/login_edt_password_hint"
+                android:inputType="textPassword"
+                android:maxLength="15"
+                android:textColorHint="@color/text_hint_color" />
+        </RelativeLayout>
+
+
+        <Button
+            android:id="@+id/mBtnLogin"
+            style="@style/LoginButton"
+            android:gravity="center"
+            android:text="@string/login_btn_login" />
+    </LinearLayout>
+</LinearLayout>

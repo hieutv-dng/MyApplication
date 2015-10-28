@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="category_tv_tab0">Kết cuối</string>
+    <string name="category_tv_tab1">Post</string>
+    <string name="category_tv_tab2">Splliter</string>
+    <string name="category_tv_hint_search">Nhập địa chỉ bạn muốn tìm</string>
+
+    <string-array name="namekc">
+        <item>T5C38</item>
+        <item>T5C37</item>
+        <item>T5C35</item>
+        <item>T19F63</item>
+        <item>T14D32</item>
+        <item>T14D33</item>
+        <item>T3F19</item>
+        <item>T28H</item>
+        <item>T4CTXA</item>
+    </string-array>
+
+    <string-array name="addresskc">
+        <item>Tổ 17 Nam Sơn 2 HC - Núi Thành</item>
+        <item>Tổ 16 Nam Sơn - Núi Thành</item>
+        <item>76 - Lê Vĩnh Huy</item>
+        <item> 805 Ngô Quyền </item>
+        <item>K.184/31 - Nguyễn Duy Hiệu</item>
+        <item>K.184/15 - Nguyễn Duy Hiệu</item>
+        <item>38 - Phan Bội Châu</item>
+        <item>N.T.Thành - Đường 3/2</item>
+        <item>179 (CTy Xuyên á) - Trần Phú</item>
+    </string-array>
+</resources>

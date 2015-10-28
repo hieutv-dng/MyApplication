@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:clickable="true"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/mTvUserName"
+        style="@style/menuTvItem"
+        android:text="@string/menu_tv_vnpt" />
+
+    <View style="@style/CommonLine" />
+
+    <TextView
+        style="@style/menuTvItem"
+        android:drawableLeft="@drawable/ic_tab0"
+        android:text="@string/menu_tv_ketcuoi" />
+
+
+    <View style="@style/CommonLine" />
+
+    <TextView
+        style="@style/menuTvItem"
+        android:drawableLeft="@drawable/ic_tab1"
+        android:text="@string/menu_tv_dichvu" />
+
+
+    <View style="@style/CommonLine" />
+
+    <TextView
+        android:id="@+id/mTvCategory"
+        style="@style/menuTvItem"
+        android:drawableLeft="@drawable/ic_tab2"
+        android:text="@string/menu_tv_dangkydv" />
+
+
+    <View style="@style/CommonLine" />
+
+    <TextView
+        android:id="@+id/mTvLogout"
+        style="@style/menuTvItem"
+        android:drawableLeft="@drawable/ic_log_out"
+        android:text="@string/menu_tv_logout" />
+
+    <View style="@style/CommonLine" />
+</LinearLayout>

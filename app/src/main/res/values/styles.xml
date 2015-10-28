@@ -1,0 +1,15 @@
+<resources>
+    <!-- Theme application. -->
+    <style name="ThemeApp" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@color/theme_color</item>
+        <item name="android:colorBackground">@color/theme_color</item>
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:typeface">serif</item>
+        <item name="android:spinnerItemStyle">@style/TextSpinner</item>
+    </style>
+
+    <style name="TextSpinner">
+        <item name="android:textColor">@color/text_color</item>
+        <item name="android:textSize">@dimen/text_size</item>
+    </style>
+</resources>
